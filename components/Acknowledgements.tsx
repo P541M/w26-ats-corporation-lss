@@ -24,7 +24,7 @@ const Acknowledgements = () => {
     },
     {
       initials: "SR",
-      name: "Samrood",
+      name: "Samrood Abu",
       role: "Manager, Business Analytics",
       department: "ATS Life Sciences Systems",
       projects: ["VBA Tool Optimization", "Amazon Parts Pricing"],
@@ -35,7 +35,7 @@ const Acknowledgements = () => {
   const colleagues = [
     {
       initials: "AA",
-      name: "Ama",
+      name: "Ama Al-Abassi",
       role: "System Platform Business Analyst",
       department: "Business Enablement",
       projects: ["CPQ Excel Replacement", "Pricing Tier Integrity Analysis"],
@@ -43,16 +43,16 @@ const Acknowledgements = () => {
     },
     {
       initials: "OM",
-      name: "Om",
-      role: "Data Analyst Co-op",
+      name: "Om Patel",
+      role: "Business Data Analyst Co-op",
       department: "ATS Life Sciences Systems",
       projects: ["Amazon Parts Pricing"],
       body: "Om was my co-worker on the Amazon parts pricing project under Samrood. Going through ~400 parts together, validating each one manually against market comparables, required clear coordination and mutual accountability. Having a reliable partner made the project both more accurate and more manageable.",
     },
     {
       initials: "D",
-      name: "Daniela",
-      role: "Recruiter",
+      name: "Daniela Acosta Roman",
+      role: "Campus Recruiter",
       department: "ATS Corporation",
       projects: ["Talent Acquisition"],
       body: "Daniela was the recruiter who brought me into ATS. Her clear communication throughout the hiring process made the transition into the role seamless. Without her, none of the work in this report would have happened.",

@@ -153,7 +153,7 @@ const Conclusion = () => {
               <p className="text-[10px] font-bold uppercase tracking-widest text-ats-blue mb-2">What&apos;s Next</p>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Following this term, I&apos;m continuing at ATS for a second 4-month rotation, this time
-                as the sole Software Developer on the{" "}
+                as a Software Developer on the{" "}
                 <span className="font-semibold text-ats-black">Illuminate</span> team. A new scope and a new challenge.{" "}
                 {ILLUMINATE_LINKEDIN_URL ? (
                   <a

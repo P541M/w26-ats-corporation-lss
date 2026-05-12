@@ -134,7 +134,7 @@ const JobDescription = () => {
             <div className="divide-y divide-gray-100">
               {responsibilities.map(({ title, body }, i) => (
                 <div key={i} className="grid grid-cols-1 sm:grid-cols-[2rem_1fr] gap-x-6 gap-y-1 py-6">
-                  <span className="text-xs font-bold text-gray-300 tabular-nums pt-0.5 hidden sm:block">
+                  <span className="text-xs font-bold text-gray-400 tabular-nums pt-0.5 hidden sm:block">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <div>
@@ -171,7 +171,7 @@ const JobDescription = () => {
                 <div key={n} className="grid grid-cols-1 lg:grid-cols-[5rem_1fr_14rem] gap-6 py-8">
                   {/* Number */}
                   <div>
-                    <span className="text-4xl font-extrabold text-gray-100 tabular-nums leading-none">{n}</span>
+                    <span className="text-4xl font-extrabold text-gray-400 tabular-nums leading-none">{n}</span>
                   </div>
                   {/* Body */}
                   <div>

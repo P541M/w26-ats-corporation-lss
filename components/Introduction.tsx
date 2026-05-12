@@ -120,7 +120,7 @@ const Introduction = () => {
               { n: "03", title: "Process Automation", body: "Reduced manual quoting tasks from 15+ minutes to under 2 minutes through VBA and Excel automation." },
             ].map(({ n, title, body }) => (
               <div key={n} className="flex gap-5">
-                <span className="text-3xl font-extrabold text-gray-100 leading-none shrink-0 tabular-nums">{n}</span>
+                <span className="text-3xl font-extrabold text-gray-400 leading-none shrink-0 tabular-nums">{n}</span>
                 <div>
                   <h4 className="text-sm font-bold text-ats-black mb-1">{title}</h4>
                   <p className="text-sm text-gray-500 leading-relaxed">{body}</p>

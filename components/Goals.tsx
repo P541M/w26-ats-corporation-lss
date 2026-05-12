@@ -221,7 +221,7 @@ const Goals = () => {
             "Daily Jira discipline and immediate blocker escalation made consistent sprint delivery achievable across the full 17 weeks.",
           ].map((point, i) => (
             <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-sm p-5">
-              <span className="text-xs font-bold text-gray-200 tabular-nums leading-none mt-0.5 shrink-0">
+              <span className="text-xs font-bold text-gray-400 tabular-nums leading-none mt-0.5 shrink-0">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <p className="text-sm text-gray-600 leading-relaxed">{point}</p>

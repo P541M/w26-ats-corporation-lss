@@ -14,6 +14,10 @@ A single-page report covering:
 - **Conclusion** — Key learnings and what comes next
 - **Acknowledgements** — The people who made the term possible
 
+## Live
+
+[https://w26-ats-corporation-lss.vercel.app](https://w26-ats-corporation-lss.vercel.app)
+
 ## Getting Started
 
 ```bash
@@ -23,7 +27,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## 📬 Contact
+## Contact
 
 - **Email**: [videna.psalmeleazar@gmail.com](mailto:videna.psalmeleazar@gmail.com)
 - **LinkedIn**: [linkedin.com/in/pevidena](https://linkedin.com/in/pevidena)

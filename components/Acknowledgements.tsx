@@ -18,7 +18,6 @@ const Acknowledgements = () => {
       initials: "NA",
       name: "Natalia Arias",
       role: "Business Enablement Lead",
-      department: "ATS Life Sciences Systems",
       projects: ["CPQ System Overhaul", "Pricing Tier Analysis", "VBA Tools"],
       body: "Natalia gave me real ownership over meaningful work from day one. She trusted me with projects that mattered and created an environment where I could take initiative, ask questions, and learn from mistakes. Her feedback was always clear and constructive, and her support throughout the term gave me the confidence to tackle increasingly complex challenges.",
     },
@@ -26,7 +25,6 @@ const Acknowledgements = () => {
       initials: "SR",
       name: "Samrood Abu",
       role: "Manager, Business Analytics",
-      department: "ATS Life Sciences Systems",
       projects: ["VBA Tool Optimization", "Amazon Parts Pricing"],
       body: "Through Natalia, I was connected with Samrood to collaborate on specific projects, and the experience was invaluable. He directed me on the VBA optimization work and managed the Amazon parts pricing initiative. Working with him gave me a different perspective on how the business operated across different teams, and his structured approach to prioritization shaped how I managed my own workload.",
     },
@@ -37,7 +35,6 @@ const Acknowledgements = () => {
       initials: "AA",
       name: "Ama Al-Abassi",
       role: "System Platform Business Analyst",
-      department: "Business Enablement",
       projects: ["CPQ Excel Replacement", "Pricing Tier Integrity Analysis"],
       body: "Ama was a key collaborator who directly shaped two of my most impactful projects. She directed the design of the CPQ Excel replacement, ensuring the system aligned with real business requirements, and worked alongside me on the pricing tier analysis that uncovered the systemic flaw. Her guidance and domain knowledge made both deliverables significantly stronger.",
     },
@@ -45,7 +42,6 @@ const Acknowledgements = () => {
       initials: "OM",
       name: "Om Patel",
       role: "Business Data Analyst Co-op",
-      department: "ATS Life Sciences Systems",
       projects: ["Amazon Parts Pricing"],
       body: "Om was my co-worker on the Amazon parts pricing project under Samrood. Going through ~400 parts together, validating each one manually against market comparables, required clear coordination and mutual accountability. Having a reliable partner made the project both more accurate and more manageable.",
     },
@@ -53,7 +49,6 @@ const Acknowledgements = () => {
       initials: "D",
       name: "Daniela Acosta Roman",
       role: "Campus Recruiter",
-      department: "ATS Corporation",
       projects: ["Talent Acquisition"],
       body: "Daniela was the recruiter who brought me into ATS. Her clear communication throughout the hiring process made the transition into the role seamless. Without her, none of the work in this report would have happened.",
     },
@@ -92,7 +87,7 @@ const Acknowledgements = () => {
         <div className={`mb-12 transition-all duration-700 delay-200 ${visible ? "animate-fade-in-up opacity-100" : "opacity-0"}`}>
           <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-5">Managers &amp; Supervisors</p>
           <div className="space-y-4">
-            {managers.map(({ initials, name, role, department, projects, body }) => (
+            {managers.map(({ initials, name, role, projects, body }) => (
               <div key={name} className="bg-white border border-gray-200 rounded-sm p-6 sm:p-7 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5">
                 <div className="grid grid-cols-1 lg:grid-cols-[11rem_1fr] gap-6 lg:gap-10 items-start">
                   {/* Left */}
@@ -102,8 +97,7 @@ const Acknowledgements = () => {
                     </div>
                     <h4 className="text-base font-bold text-ats-black">{name}</h4>
                     <p className="text-ats-blue text-sm font-medium mt-0.5">{role}</p>
-                    <p className="text-gray-400 text-xs mt-0.5 mb-3">{department}</p>
-                    <div className="flex flex-wrap gap-1.5">
+                    <div className="flex flex-wrap gap-1.5 mt-2">
                       {projects.map((p) => (
                         <span key={p} className="text-[10px] font-semibold bg-blue-50 text-ats-blue px-2 py-0.5 rounded-sm">{p}</span>
                       ))}
@@ -122,7 +116,7 @@ const Acknowledgements = () => {
         <div className={`mb-12 transition-all duration-700 delay-300 ${visible ? "animate-fade-in-up opacity-100" : "opacity-0"}`}>
           <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400 mb-5">Colleagues &amp; Peers</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {colleagues.map(({ initials, name, role, department, projects, body }) => (
+            {colleagues.map(({ initials, name, role, projects, body }) => (
               <div key={name} className="bg-white border border-gray-200 rounded-sm p-6 transition-all duration-200 hover:shadow-md hover:-translate-y-0.5">
                 <div className="flex gap-4 mb-4">
                   <div className="w-10 h-10 bg-blue-50 rounded-sm flex items-center justify-center shrink-0">
@@ -130,7 +124,7 @@ const Acknowledgements = () => {
                   </div>
                   <div className="min-w-0">
                     <h4 className="text-sm font-bold text-ats-black">{name}</h4>
-                    <p className="text-ats-blue text-xs font-medium">{role} · {department}</p>
+                    <p className="text-ats-blue text-xs font-medium">{role}</p>
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-1.5 mb-3">
